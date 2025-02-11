@@ -35,10 +35,10 @@ export default function ProjectDetail() {
           </ul>
           
           <div className="project-links">
-            <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="btn">
+            <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="project-links-btn">
               Live Demo
             </a>
-            <a href={project.githubUrl === null ? `/project/${project.id}` : project.githubUrl} target="_blank" rel="noopener noreferrer" className="btn btn-outline">
+            <a href={project.githubUrl === null ? `/project/${project.id}` : project.githubUrl} target="_blank" rel="noopener noreferrer" className="project-links-btn project-links-btn-outline">
               View Code
             </a>
           </div>
