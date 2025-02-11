@@ -35,3 +35,9 @@ h2 {
   margin-bottom: 1.5rem;
   color: var(--primary-color);
 }
+
+@media (max-width: 768px) {
+  .container{
+    padding: 0 1rem;
+  }
+}
