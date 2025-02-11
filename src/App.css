@@ -128,51 +128,6 @@
   cursor: default;
 }
 
-.contact-form {
-  max-width: 600px;
-  margin: 3rem auto;
-  padding: 2rem;
-  background: rgba(255, 255, 255, 0.03);
-  border-radius: 16px;
-  border: 1px solid rgba(255, 215, 0, 0.1);
-}
-
-.form-group {
-  margin-bottom: 2rem;
-}
-
-.form-group label {
-  display: block;
-  font-size: 1.1rem;
-  margin-bottom: 0.8rem;
-  color: var(--primary-color);
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 1rem;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 215, 0, 0.2);
-  border-radius: 8px;
-  color: var(--text-color);
-  font-size: 1rem;
-  font-family: inherit;
-  transition: all 0.3s ease;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  outline: none;
-  border-color: var(--primary-color);
-  background: rgba(255, 255, 255, 0.08);
-}
-
-.form-group textarea {
-  min-height: 150px;
-  resize: vertical;
-}
-
 .btn {
   display: inline-block;
   background-color: var(--primary-color);
@@ -327,7 +282,11 @@
   }
   
   .hero h2 {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
+  }
+
+  .hero p{
+    font-size: 1rem;
   }
   
   .projects-grid {
@@ -350,9 +309,5 @@
   
   .skills-container {
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  }
-  
-  .contact-form {
-    padding: 1.5rem;
   }
 }
