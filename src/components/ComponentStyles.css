@@ -1,0 +1,31 @@
+.project-links {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-details {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  padding: 2rem;
+  border: 1px solid rgba(255, 215, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.contact-details p {
+  font-size: 20px;
+}
+
+.contact-details strong{
+    color: var(--primary-color);
+}
+
+
+@media (max-width: 768px) {
+    .contact-details p{
+        font-size: 1rem;
+    }
+    
+}
